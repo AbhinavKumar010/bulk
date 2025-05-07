@@ -1,21 +1,10 @@
 {
   "name": "bulk-order-project",
   "version": "1.0.0",
-  "description": "Bulk Order Project with client and server",
-  "scripts": {
-    "install-client": "cd client && npm install",
-    "install-server": "cd server && npm install",
-    "build-client": "cd client && npm run build",
-    "install": "npm run install-client && npm run install-server",
-    "build": "npm run build-client",
-    "start": "cd server && npm start"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
   "private": true,
-  "dependencies": {
-    "date-fns": "^4.1.0",
-    "react-intersection-observer": "^9.16.0"
+  "scripts": {
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd client && npm run preview"
   }
 }
