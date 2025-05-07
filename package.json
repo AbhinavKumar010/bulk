@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install": "cd client && npm install",
+    "install": "cd client && npm install --legacy-peer-deps",
     "build": "cd client && npm run build",
     "start": "cd client && npm run preview"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }
