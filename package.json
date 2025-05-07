@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install": "cd client && npm install --legacy-peer-deps",
-    "build": "cd client && npm install --legacy-peer-deps && npm run build",
+    "install": "cd client && npm install",
+    "build": "cd client && npm install && npm run build",
     "start": "cd client && npm run preview",
-    "vercel-build": "cd client && npm install --legacy-peer-deps && npm run build"
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
