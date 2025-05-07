@@ -5,7 +5,8 @@
   "scripts": {
     "install": "cd client && npm install --legacy-peer-deps",
     "build": "cd client && npm install --legacy-peer-deps && npm run build",
-    "start": "cd client && npm run preview"
+    "start": "cd client && npm run preview",
+    "vercel-build": "cd client && npm install --legacy-peer-deps && npm run build"
   },
   "engines": {
     "node": ">=16.0.0",
