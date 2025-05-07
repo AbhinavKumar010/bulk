@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except the client directory
+!client/
+!client/**
+!vercel.json 
